@@ -58,7 +58,7 @@ npm install
 npm install concurrently
 ```
 
-Copy the scripts from Svelte Template, the append `svelte-` to each script name. Next, modify the `start` script to concurrently run svelte and electron. 
+Copy the scripts from Svelte Template, then prepend `svelte-` to each script name. Next, modify the `start` script to concurrently run svelte and electron. 
 
 {{< file "npm" "package.json" >}}
 ```json
